@@ -52,4 +52,8 @@ a{
 .card{
   text-align: center;
 }
+.footer{
+  background-color: rgb(124, 124, 38);
+  color: white;
+}
 

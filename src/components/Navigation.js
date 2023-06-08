@@ -8,10 +8,10 @@ export default function Navigation() {
             <div className='nav'>
                 <nav style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
                     <ul className='nav-bar'>
-                        <li><a className='active' href="#home">Home</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a style={{ color: theme.color }} className='active' href="#home">Home</a></li>
+                        <li><a style={{ color: theme.color }} href="#news">News</a></li>
+                        <li><a style={{ color: theme.color }} href="#about">About</a></li>
+                        <li><a style={{ color: theme.color }} href="#contact">Contact</a></li>
                     </ul>
 
                <div style={{position: 'relative'}}>
